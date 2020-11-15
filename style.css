@@ -467,6 +467,7 @@ footer a { display: flex;
 
 .linkMap {
     color: #CD007A;
+    justify-content: center;
     font-family: TideSans-600Bunny;
 }
 
@@ -490,115 +491,10 @@ footer a { display: inline-flex;
 
      }
 
-     .footer-buttons {
+    .footer-buttons {
     display: flex;
     flex-direction: row;
       
       }
       
 }
-
-
-
-/* Footer */
-
-/*.heroFooter {
-    display: flex ;
-    flex-direction: column;
-       
-    background-image: linear-gradient(to bottom, rgba(193, 85, 85, 0.52), rgba(37, 1, 2, 0.73)), url("./images/backgrounds/bakgrundsbild-lilarosa.jpg");
-    background-repeat: no-repeat repeat;
-    background-size: cover;
-    background-position: center;
-    height: 60%;
-    padding: 5px 10px;
-    
-    }
- 
-    
-    .fab{
-        font-size: 40px;
-    }
-
-    
-    .social-media {
-        display: flex;
-        justify-content: space-evenly;
-       list-style: none;
-   }
-    
-    .kontaktUppgifter {
-    font-family: TideSans-300LilKahuna;
-    color: white;
-    }
-    
-    .footer-buttons {
-      display: flex;
-     flex-direction: column;
-     font-family: TideSans-600Bunny;
-    }
-  
-    .spanbtn{
-     border: 1px solid white;
-     padding: 15px 25px;
-     box-shadow: 5px 5px #FFE600;
-
-    }
-    
-    footer a { display: flex;
-        justify-content: flex-start;
-        padding: 5px 3px;
-         color: white;
-        text-decoration: none;
-     }
-    
-     footer a:hover {
-        color: #FFE600;
-    }
-    
-    .site-footer-payoff {
-        display: block;
-        width: 100%;
-        text-align: center;
-        font-family: TideSans-600Bunny;
-    
-    }
-    
-    .fa-map-marker-alt {
-        color: #CD007A;
-       
-    }
-    
-    .linkMap {
-        color: #CD007A;
-        justify-content: center;
-        font-family: TideSans-600Bunny;
-    }
-    
-    a.linkMap:hover {
-        color: #000000;
-        text-decoration: underline;
-        text-decoration-color: #FFE600;
-    }
-
-
-@media screen and (min-width: 700px) {
-    .heroFooter {
-        display: flex ;
-        justify-content: center;
-        align-items: center;
-        min-height: 50%;
-
-    }
-    footer a { display: inline-flex;
-       padding: 10px 10px;
-    
-         }
-
-         .footer-buttons {
-            display: flex;
-            flex-direction: row;
-          
-          }
-          
-} */
