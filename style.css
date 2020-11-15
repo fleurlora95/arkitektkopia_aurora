@@ -1,0 +1,604 @@
+
+@font-face {
+
+    src: url(/fonts/TideSans-300LilKahuna.ttf);
+    font-family: TideSans-300LilKahuna;
+
+}
+
+@font-face { 
+
+    src: url(/fonts/TideSans-600Bunny.ttf);
+    font-family: TideSans-600Bunny;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*  NavBar */
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: auto;
+    background: #ffffff
+
+}
+
+.fa-hamburger{
+    display: none;
+    font-size: 30px;
+    color: black ;
+    padding: 10px 10px;
+
+}
+.navImgWrapper{
+   width: 100px;
+   height: auto;
+   display: block;
+   padding: 20px 40px;
+}
+
+
+.header-left{
+    list-style: none;
+
+    }
+
+  .header-right{
+    list-style: none;
+}
+ 
+.menu-item {
+      padding: 10px 10px;
+      font-size: 5px;
+      font-family: TideSans-600Bunny;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.subNav{
+    /* padding: 20px 20px; */
+    display: none;
+    z-index: 1000;
+    
+}
+
+.mystyle{
+display: block;
+z-index: 100;
+height: 100vh;
+overflow: hidden;
+position: relative;
+}
+
+@media screen and (min-width: 950px) {
+.navbar{
+display: flex;
+align-items: center
+    }
+ .navBar .fa-hamburger{
+        display: none;
+    }
+    .subNav{
+        display: inline-flex;
+        font-family: TideSans-600Bunny;
+    }
+    
+   ul{
+       display: inline-flex;
+    }
+    .fa-search{
+        padding: 10px 30px;
+    }
+    .subNav a{
+        font-weight: bold;
+    }
+
+    .navImgWrapper{
+        width: 230px;
+        height: auto;
+        display: block;
+        padding: 10px 30px;
+     }
+
+
+}  
+
+/* /Header */
+.heroWrapper{
+    
+    width: 100%;
+ 
+}
+
+.hero{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url("./images/backgrounds/bakgrundsbild-lilarosa.jpg");
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat repeat;
+
+    background-size: cover;
+    background-position: center;
+    font-family: TideSans-600Bunny;
+    text-align: center;
+}
+
+.h1Span{
+color: #ffe600;
+font-family: TideSans-600Bunny;
+
+}
+.rubrik{
+color: white;
+padding: 10px 10px;
+font-family: TideSans-600Bunny;
+
+
+}
+.subRubrik{
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.pSpan{
+    color: #ffe600 
+      }
+ 
+
+/* Main */
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: unset;   
+    
+}
+.container{
+    display: block;
+}
+.imgContainer{
+    width: 100%;
+    height: 50%; 
+}
+
+
+  /*desription1*/
+
+.img__description {
+    position: absolute;
+    background: #FFE600;
+    color: #000000;
+    visibility: hidden;
+    font-family: TideSans-600Bunny;
+    font-size: 50px;
+    opacity: 0;
+
+
+/* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }
+
+.wrapper1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper1:hover .img__description  {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+  /*desription2*/
+
+.img__description2 {
+    position: absolute;
+    background: #FFE600;
+    color: #000000;
+    visibility: hidden;
+    font-family: TideSans-600Bunny;
+    font-size: 50px;
+    opacity: 0;
+
+
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }
+
+.wrapper2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .wrapper2:hover .img__description2 {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+/*desription3*/
+
+.img__description3 {
+    position: absolute;
+    background: #FFE600;
+    color: #000000;
+    visibility: hidden;
+    font-family: TideSans-600Bunny;
+    font-size: 50px;
+    opacity: 0;
+
+
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }
+
+  .wrapper3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .wrapper3:hover .img__description3 {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+/*desription4*/
+
+.img__description4 {
+    position: absolute;
+    background: #FFE600;
+    color: #000000;
+    visibility: hidden;
+    font-family: TideSans-600Bunny;
+    font-size: 50px;
+    opacity: 0;
+
+
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }
+
+  .wrapper4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .wrapper4:hover .img__description4 {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+/*desription5*/
+
+.img__description5 {
+    position: absolute;
+    background: #FFE600;
+    color: #000000;
+    visibility: hidden;
+    font-family: TideSans-600Bunny;
+    font-size: 50px;
+    opacity: 0;
+
+
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }
+
+  .wrapper5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .wrapper5:hover .img__description5 {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+.wrapperImg{
+    width: 100%;
+    /*height: 100%;*/
+    min-width: 100%;
+    /*min-height: 100%;*/
+    padding: 20px 20px;
+
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: contain;
+}
+
+@media screen and (min-width: 800px) {
+
+.h1Span {
+    font-size: 60px;
+}
+
+    .wrapperImg{
+       padding: 40px 60px;
+    }
+
+.container{
+    display: block;
+}
+ .container{
+display: grid;
+grid-template-columns: 0.5fr 0.5fr;
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-areas: 
+    "grid1 grid2" 
+    "grid3 grid4"
+    "grid5 .";
+                     
+}
+      
+.imgContainer1{ 
+    grid-area: grid1;
+    position: relative;
+    padding-top: 50px;
+   
+}
+.imgContainer2{ 
+    grid-area: grid2;
+    padding-top: 50px;
+ 
+}
+.imgContainer3{ 
+    grid-area: grid3;
+ 
+}
+.imgContainer4{ 
+    grid-area: grid4;
+
+}
+.imgContainer5{ 
+    grid-area: grid5;
+    padding-bottom: 50px;
+}
+
+
+}
+
+.imgContainer{
+width: unset;
+height: unset;
+}
+
+
+
+
+/* footer */
+
+.heroFooter {
+    display: flex ;
+    flex-direction: column;
+   
+    background-image: linear-gradient(to bottom, rgba(193, 85, 85, 0.52), rgba(37, 1, 2, 0.73)), url("./images/backgrounds/bakgrundsbild-lilarosa.jpg");
+    background-repeat: no-repeat repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    padding: 5px 10px;
+
+}
+
+
+.fab{
+    font-size: 40px;
+}
+
+
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.kontaktUppgifter {
+    font-family: TideSans-300LilKahuna;
+    color: white;
+}
+
+.footer-buttons {
+    display: flex;
+    flex-direction: column;
+    font-family: TideSans-600Bunny;
+}
+
+.spanbtn{
+    border: 1px solid white;
+    padding: 5px 20px;
+    box-shadow: 5px 5px #FFE600;
+
+}
+
+footer a { display: flex;
+    justify-content: flex-start;
+    padding: 5px 3px;
+    color: white;
+    text-decoration: none;
+ }
+
+ footer a:hover {
+    color: #FFE600;
+}
+
+.site-footer-payoff {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: TideSans-600Bunny;
+
+}
+
+.fa-map-marker-alt {
+    color: #CD007A;
+   
+}
+
+.linkMap {
+    color: #CD007A;
+    font-family: TideSans-600Bunny;
+}
+
+a.linkMap:hover {
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: #FFE600;
+}
+
+
+@media screen and (min-width: 700px) {
+.heroFooter {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    min-height: 50%;
+
+}
+footer a { display: inline-flex;
+   padding: 5px 10px;
+
+     }
+
+     .footer-buttons {
+    display: flex;
+    flex-direction: row;
+      
+      }
+      
+}
+
+
+
+/* Footer */
+
+/*.heroFooter {
+    display: flex ;
+    flex-direction: column;
+       
+    background-image: linear-gradient(to bottom, rgba(193, 85, 85, 0.52), rgba(37, 1, 2, 0.73)), url("./images/backgrounds/bakgrundsbild-lilarosa.jpg");
+    background-repeat: no-repeat repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+    padding: 5px 10px;
+    
+    }
+ 
+    
+    .fab{
+        font-size: 40px;
+    }
+
+    
+    .social-media {
+        display: flex;
+        justify-content: space-evenly;
+       list-style: none;
+   }
+    
+    .kontaktUppgifter {
+    font-family: TideSans-300LilKahuna;
+    color: white;
+    }
+    
+    .footer-buttons {
+      display: flex;
+     flex-direction: column;
+     font-family: TideSans-600Bunny;
+    }
+  
+    .spanbtn{
+     border: 1px solid white;
+     padding: 15px 25px;
+     box-shadow: 5px 5px #FFE600;
+
+    }
+    
+    footer a { display: flex;
+        justify-content: flex-start;
+        padding: 5px 3px;
+         color: white;
+        text-decoration: none;
+     }
+    
+     footer a:hover {
+        color: #FFE600;
+    }
+    
+    .site-footer-payoff {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-family: TideSans-600Bunny;
+    
+    }
+    
+    .fa-map-marker-alt {
+        color: #CD007A;
+       
+    }
+    
+    .linkMap {
+        color: #CD007A;
+        justify-content: center;
+        font-family: TideSans-600Bunny;
+    }
+    
+    a.linkMap:hover {
+        color: #000000;
+        text-decoration: underline;
+        text-decoration-color: #FFE600;
+    }
+
+
+@media screen and (min-width: 700px) {
+    .heroFooter {
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+        min-height: 50%;
+
+    }
+    footer a { display: inline-flex;
+       padding: 10px 10px;
+    
+         }
+
+         .footer-buttons {
+            display: flex;
+            flex-direction: row;
+          
+          }
+          
+} */

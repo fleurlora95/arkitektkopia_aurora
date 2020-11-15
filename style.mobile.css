@@ -1,0 +1,149 @@
+
+@font-face {
+
+    src: url(/fonts/TideSans-300LilKahuna.ttf);
+    font-family: TideSans-300LilKahuna;
+
+}
+
+@font-face { 
+
+    src: url(/fonts/TideSans-600Bunny.ttf);
+    font-family: TideSans-600Bunny;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+
+header{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+/*.hero{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    background-image: linear-gradient(to bottom, rgba(193, 85, 85, 0.52), rgba(37, 1, 2, 0.73)), url("./images/backgrounds/bakgrundsbild-lilarosa.jpg");
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat repeat;
+     background-size: cover;
+    background-position: center;
+    */
+
+}
+.amin{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    position: absolute;
+}
+
+/*footer*/
+
+.heroFooter {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, rgba(193, 85, 85, 0.52), rgba(37, 1, 2, 0.73)), url("./images/backgrounds/bakgrundsbild-lilarosa.jpg");
+    background-repeat: no-repeat repeat;
+    background-size: cover;
+    background-position: center;
+    height: 45%;
+
+}
+
+.container-fluid {
+    display: block;
+    justify-items: center;
+    margin-bottom: 60px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 40px;
+
+}
+
+.kontaktUppgifter {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 40px;
+    font-size: 14px;
+    font-family: TideSans-300LilKahuna;
+    color: white;
+
+}
+
+.footer-buttons {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    font-family: TideSans-600Bunny;
+
+}
+
+.button {
+    display: inline-block;
+
+    padding-top: 18px;
+    padding-right: 38px;
+    padding-bottom: 16px;
+    padding-left: 38px;
+    display: block;
+
+    border: 1px solid white;
+    font-size: 16px;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFE600;
+}
+
+.site-footer-payoff {
+    display: block;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    font-family: TideSans-600Bunny;
+
+}
+
+.fa-map-marker-alt {
+    color: #CD007A;
+    font-size: 25px;
+}
+
+.linkMap {
+    color: #CD007A;
+    font-family: TideSans-600Bunny;
+}
+
+a.linkMap:hover {
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: #FFE600;
+}

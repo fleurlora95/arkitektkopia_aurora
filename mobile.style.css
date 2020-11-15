@@ -1,0 +1,42 @@
+@media (max-width: 600) {
+
+}
+
+@media (min-width: 320) {
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.heroFooter {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, rgba(193, 85, 85, 0.52), rgba(37, 1, 2, 0.73)), url("./images/backgrounds/bakgrundsbild-lilarosa.jpg");
+   
+    background-repeat: no-repeat repeat;
+    background-size: cover;
+    background-position: center;
+
+    padding: 60px 0;
+    padding-top: 60px;
+    padding-right: 0px;
+    padding-bottom: 60px;
+    padding-left: 0px;
+
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 40px;
+    margin-top: 10px;
+
+}
+
